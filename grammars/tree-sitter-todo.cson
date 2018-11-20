@@ -1,6 +1,6 @@
 name: 'TODO'
 
-scopeName: 'source.todo'
+scopeName: 'text.todo'
 
 type: 'tree-sitter'
 
@@ -9,4 +9,4 @@ parser: 'tree-sitter-todo'
 injectionRegex: 'todo'
 
 scopes:
-  'todo > todo_token': 'string'
+  'todo > todo_token': 'storage.type.class' # TODO: support regex capture to scope name
