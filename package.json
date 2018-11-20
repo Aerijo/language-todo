@@ -16,6 +16,9 @@
   "bugs": {
     "url": "https://github.com/atom/language-todo/issues"
   },
+  "dependencies": {
+    "tree-sitter-todo": "^0.0.0"
+  },
   "devDependencies": {
     "coffeelint": "^1.10.1"
   }
