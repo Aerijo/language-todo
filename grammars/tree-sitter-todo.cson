@@ -1,0 +1,12 @@
+name: 'TODO'
+
+scopeName: 'source.todo'
+
+type: 'tree-sitter'
+
+parser: 'tree-sitter-todo'
+
+injectionRegex: 'todo'
+
+scopes:
+  'todo > todo_token': 'string'
